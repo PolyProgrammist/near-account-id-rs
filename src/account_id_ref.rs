@@ -1,8 +1,6 @@
 use std::borrow::Cow;
 
 use crate::{AccountId, ParseAccountError};
-#[cfg(feature = "schemars")]
-use crate::schemars_exports::schemars;
 
 /// Account identifier. This is the human readable UTF-8 string which is used internally to index
 /// accounts on the network and their respective state.
